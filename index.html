@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Juego de Adivinanza</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>🎯 Adivina el Número</h1>
+    <input type="number" id="guess" placeholder="Ingresa un número entre 1 y 100">
+    <button onclick="checkGuess()">Adivinar</button>
+    <div class="message" id="message"></div>
+    <div class="attempts" id="attempts">Intentos: 0</div>
+    <button class="restart" onclick="restartGame()">Reiniciar</button>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
