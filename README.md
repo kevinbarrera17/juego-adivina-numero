@@ -14,3 +14,5 @@ Juego interactivo en el que el usuario debe adivinar un número aleatorio entre 
 
 ### 🚀 Propósito:
 Proyecto para practicar lógica con JavaScript, eventos, condicionales y funciones.
+
+Enlace: https://kevinbarrera17.github.io/juego-adivina-numero/
