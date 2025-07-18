@@ -1,8 +1,8 @@
-
 * {
   box-sizing: border-box;
   font-family: 'Segoe UI', sans-serif;
 }
+
 body {
   background: linear-gradient(135deg, #56ccf2, #2f80ed);
   color: #fff;
@@ -12,18 +12,21 @@ body {
   height: 100vh;
   margin: 0;
 }
+
 .container {
   background-color: rgba(0, 0, 0, 0.3);
   padding: 30px;
   border-radius: 15px;
   text-align: center;
-  box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
   width: 90%;
   max-width: 400px;
 }
+
 h1 {
   margin-bottom: 20px;
 }
+
 input[type="number"] {
   padding: 10px;
   width: 100%;
@@ -32,6 +35,7 @@ input[type="number"] {
   font-size: 1rem;
   margin-bottom: 15px;
 }
+
 button {
   background-color: #27ae60;
   color: white;
@@ -43,18 +47,22 @@ button {
   transition: background 0.3s ease;
   width: 100%;
 }
+
 button:hover {
   background-color: #219150;
 }
+
 .restart {
   margin-top: 15px;
   background-color: #f39c12;
 }
+
 .message {
   margin-top: 20px;
   font-size: 1.2rem;
   min-height: 24px;
 }
+
 .attempts {
   margin-top: 10px;
   font-size: 1rem;
